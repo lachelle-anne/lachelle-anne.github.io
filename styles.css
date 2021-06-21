@@ -1,7 +1,15 @@
-﻿body {
+﻿.nav-link{
+    color: black;
+    font-weight: bold;
+
+}
+.nav-tabs{
+    background-color: rgba(255,255,255, 0.3); 
+}
+body {
     /* Margin bottom by footer height */
     position: relative;
-   background: url('images/work-3485550_1920.jpg') no-repeat;
+   background: url('images/desktop-2325627_1920.jpg') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
