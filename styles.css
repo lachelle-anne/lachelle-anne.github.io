@@ -9,7 +9,7 @@
 body {
     /* Margin bottom by footer height */
     position: relative;
-   background: url('images/desktop-2325627_1920.jpg') no-repeat;
+   background: url('images/bg.jpg') no-repeat;
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
