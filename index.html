@@ -19,84 +19,61 @@
     </script>
 </head>
 
-<body class="position-fixed w-100">
+<body>
     <header>
-        <div class="navigation fixed-top" style="padding: 10px;">
-            <div class="row">
-                <div class="col-lg-12 ">
-                    <nav>
-                        <ul class="nav nav-tabs nav-fill w-100">
-                            <li class="nav-item">
-                                <a class="nav-link active" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="projects.html">Projects</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="blog.html">Blog</a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div id="myTabContent" class="tab-content">
-                        <div class="tab-pane fade show active" id="home"></div>
-                    </div>
-                </div>
+        <div class="navigation">
+            <nav>
+                <ul class="nav nav-tabs nav-fill">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="blog.html">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade show active" id="home"></div>
             </div>
-        </div>
         </div>
     </header>
-    <div class="container" style="padding-top: 70px; padding-bottom: 60px;">
-        <div class="row justify-content-center"
-            style="height: calc(100vh - 80px - 70px); padding-left: 10px; padding-right: 10px;">
-            <div class="col-lg-8 p-3 m-0 text-dark"
-                style="background-color: rgba(255,255,255, 0.5); border-radius: 15px; border: solid 2px #808080;color: #504f54; min-height: max-content;">
-                <div class="m-3">
-                    <h3 class="text-center">L A C H E L L E</h3>
-                    <h6 class="text-center">P A V L O V I C</h6>
-                    <br />
-                    <section>
-                        <article>
-                            <h5><u>TECHNICAL SKILLS</u></h5>
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-                                <li>C#</li>
-                                <li>React</li>
-                                <li>React Native</li>
-                            </ul>
-                            <br />
-                            <h5><u>IDE's</u></h5>
-                            <ul>
-                                <li>Microsoft SQL Server</li>
-                                <li>Visual Studio</li>
-                                <li>Visual Studio Code</li>
-                            </ul>
-                        </article>
-                        <aside><img src="images/profile_img.jpg" alt="lachelle-anne"
-                                style="width: 60%; float: right; border-radius: 90px; border: 2px solid lightgray">
-                        </aside>
-                    </section>
-                </div>
-            </div>
+    <div class="container">
+        <div class="heading-row">
+            <h3 class="text-center">L A C H E L L E</h3>
+            <h6 class="text-center">P A V L O V I C</h6>
+        </div>
+        <div class="about-subheading-one">
+            <h5><u>SKILLS</u></h5>
+        </div>
+        <div class="home-column-one">
+            <div class="bar back basic" data-skill="JavaScript"></div>
+            <div class="bar middle intermediate" data-skill="C#"></div>
+            <div class="bar middle intermediate" data-skill="React"></div>
+            <div class="bar middle intermediate" data-skill="React Native"></div>
+            <div class="bar middle intermediate" data-skill="Google Analytics"></div>
+            <div class="bar front advanced" data-skill="SQL"></div>
+            <div class="bar front advanced" data-skill="CSS"></div>
+            <div class="bar front advanced" data-skill="HTML"></div>
+        </div>
+        <div class="home-column-two">
+            <img class="profile-image" src="images/profile_img.jpg" alt="lachelle-anne">
         </div>
     </div>
-    <footer class="border-top border-light footer w-100 fixed-bottom"
-        style="display: flex; justify-content: center; align-items: center;">
-        <a class="footerLink" href="mailto:lachelle.anne@gmail.com"><img src="images/envelope-fill.svg" alt="email"
-                style="height: 25px;" /></a>
-        <a class="footerLink" href="https://www.instagram.com/la_codes/"><img src="images/instagram.svg" alt="instagram"
-                style="height: 25px;" /></a>
-        <a class="footerLink" href="https://www.linkedin.com/in/lachelle-anne/"><img src="images/linkedin.svg"
-                alt="linkedin" style="height: 25px;" /></a>
-        <a class="footerLink" href="https://github.com/lachelle-anne"><img src="images/github.svg" alt="github"
-                style="height: 25px;" /></a>
-        <a class="footerLink" href="https://skillshop.exceedlms.com/profiles/64b3b51ffb7d48c68118f1fb904ebf18"><img
-                src="images/google.svg" alt="google qualifications" style="height: 25px;" /></a>
-
+    <footer class="border-top border-light footer fixed-bottom">
+        <a class="footer-links" href="mailto:lachelle.anne@gmail.com"><img class="footer-icon"
+                src="images/envelope-fill.svg" alt="email" /></a>
+        <a class="footer-links" href="https://www.instagram.com/la_codes/"><img class="footer-icon"
+                src="images/instagram.svg" alt="instagram" /></a>
+        <a class="footer-links" href="https://www.linkedin.com/in/lachelle-anne/"><img class="footer-icon"
+                src="images/linkedin.svg" alt="linkedin" /></a>
+        <a class="footer-links" href="https://github.com/lachelle-anne"><img class="footer-icon" src="images/github.svg"
+                alt="github" /></a>
     </footer>
     <script src="lib/jquery/jquery.min.js"></script>
     <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
