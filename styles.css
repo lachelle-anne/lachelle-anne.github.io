@@ -90,9 +90,24 @@ body {
   background-color: rgba(255,255,255, 0.6);
 }
 /* Projects Page */
-.projects{
+.project-title-one{
   grid-column: 1/7;
-  grid-row: 2/7;
+  grid-row: 2;
+  padding: 10px;
+}
+.project-one{
+  grid-column: 1/7;
+  grid-row: 3/7;
+  padding: 10px;
+}
+.project-title-two{
+  grid-column: 1/7;
+  grid-row: 8;
+  padding: 10px;
+}
+.project-two{
+  grid-column: 1/7;
+  grid-row: 9/13;
   padding: 10px;
 }
 /* Footer */
