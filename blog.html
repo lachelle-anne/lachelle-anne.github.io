@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lachelle Pavlovic</title>
-    <link href="styles.css?v=4" rel="stylesheet" />
+    <link href="styles.css?v=5" rel="stylesheet" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-203236141-1"></script>
@@ -44,20 +44,98 @@
     </header>
     <div class="container">
         <div class="heading-title">
-            <h3 class="text-center">B L O G</h3>
+            <h6 class="text-center">A&emsp;G R A D U A T E S&emsp;G U I D E&emsp;T O</h6>
+            <h3 class="text-center">D E V E L O P I N G</h3>
         </div>
-        <div class="heading-subtitle">
-            <p>New content coming soon!</p>
+        <button type="button" class="collapsible">PART ONE: Learning Styles, Resources and Beginners <div
+                class="blogdate">
+                4th
+                September 2021</details></button>
+        <div class="content">
+            <p> Whether a beginner, student, graduate, junior or senior, gaining access to educational content and
+                identifying resources appropriate to your level whilst also meeting your requirements can often be
+                tricky, especially starting out. </p>
+            <p> When browsing through any search engine, the first links available when searching ‘learn to
+                code’ are listings by larger companies offering fast-tracked courses, boot-camps, classes and
+                subscriptions. Before it is said, yes, trying a similar search for information on other industries like
+                this will often obtain the same result. The internet is vast and searches can often be incoherent or
+                imprecise due the phrasing or vagueness of your search. This can often be confronting and deterring as a
+                beginner, and like most things takes time and patience to understand and define. </p>
+            <p> So, where do you start? </p>
+            <p> The first thing worth noting is that there are many different learning styles. Quite often we hear about
+                them in passing, but not all content caters for multiple learning styles. Being able to first identify
+                your learning style - or even styles - is key in optimising your learning. This will enable you to build
+                techniques to better engage and understand the information given, not only aiding you for your studies,
+                but equipping you with skills that can be utilised within your career. </p>
+            <p> The next part can be a bit more challenging – sourcing information which is relevant to the level you
+                are at. Instances of courses and video tutorials are easily accessible but can often be daunting, and if
+                intended at a higher level audience, the experience can be disengaging and demotivate your enthusiasm to
+                explore more into the subject. </p>
+            <p>Starting out with resources that provide a basic hands-on approach such as online code editors and
+                interactive tutorial sections, which allow you to work with and edit code, will assist you in gaining a
+                better understanding of what code is and how changes within it affects the result.</p>
+            <p>When I first began looking into programming, one of the first recommendations online mentioned to have a
+                project in mind, and choose a programming language. This can definitely be great incentive to begin
+                learning and work on your own passion project, but not all will start with this direction. As you become
+                more attuned to programming, you will find that some ideas can be complex to start with, or may have
+                another programming language more suitable for the project you have in mind – but don’t let this deter
+                you from trying!</p>
+            <p>When looking to start researching and learning a language, a guide which ranks them in order of
+                difficulty or specifies easier languages to start with as a beginner is a great way to commence
+                learning. There are a few websites worth mentioning which provide a great introduction to a range of
+                programming languages and are easy to navigate and follow – I will list a few at the end of this blog
+                entry which I find quite insightful and use regularly for guidance.
+            <p>Starting with a simple project that has been covered well and using your resources as a guide rather than
+                following a video or tutorial step-by-step will ultimately benefit your learning, encouraging your
+                involvement and problem solving skills, rather than relying on mimicking or memorising the session.
+                Not only does this help you understand the code, but you feel more achieved in knowing that you figured
+                it out – puzzles are your friends!</p>
+            <p>A solution can be implemented in many different ways and refined as you learn more. Don’t let a challenge
+                stop you from achieving knowledge.</p>
+            <p class="text-center"><q><i>You don't have to be great to start, but you have to start to be great.</i></q>
+            </p>
+            <p style="text-align: end;"> – Zig Ziglar</p>
+            <p>
+                <a class="highlight" target="_blank" rel="noopener noreferrer" href="https://www.w3schools.com/">w3schools</a>
+                <a class="highlight" target="_blank" rel="noopener noreferrer" href="https://www.entityframeworktutorial.net/">EntityFrameworkTutorial</a>
+                <a class="highlight" target="_blank" rel="noopener noreferrer" href="https://css-tricks.com/">CSS-Tricks</a>
+                <a class="highlight" target="_blank" rel="noopener noreferrer" href="https://developer.mozilla.org/en-US/">MDN Web Docs</a>
+                <a class="highlight" target="_blank" rel="noopener noreferrer" href="https://reactnative.dev/">React Native</a>
+                <a class="highlight" target="_blank" rel="noopener noreferrer" href="https://www.tutorialspoint.com/tutorialslibrary.htm">tutorialspoint</a>
+            </p>
         </div>
+        <button type="button" class="collapsible">PART TWO: Programming Terms, Guidelines and Beginners<div
+                class="blogdate">COMING SOON!
+                </details></button>
+        <div class="content">
+            <p>Coming soon!</p>
+        </div>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+                coll[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        </script>
     </div>
     <footer class="border-top border-light footer fixed-bottom">
-        <a class="footer-links" href="mailto:lachelle.anne@gmail.com"><img class="footer-icon"
+        <a class="footer-links" target="_blank" rel="noopener noreferrer" href="mailto:lachelle.anne@gmail.com"><img class="footer-icon"
                 src="images/envelope-fill.svg" alt="email" /></a>
-        <a class="footer-links" href="https://www.instagram.com/la_codes/"><img class="footer-icon"
+        <a class="footer-links" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/la_codes/"><img class="footer-icon"
                 src="images/instagram.svg" alt="instagram" /></a>
-        <a class="footer-links" href="https://www.linkedin.com/in/lachelle-anne/"><img class="footer-icon"
+        <a class="footer-links" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/lachelle-anne/"><img class="footer-icon"
                 src="images/linkedin.svg" alt="linkedin" /></a>
-        <a class="footer-links" href="https://github.com/lachelle-anne"><img class="footer-icon" src="images/github.svg"
+        <a class="footer-links" target="_blank" rel="noopener noreferrer" href="https://github.com/lachelle-anne"><img class="footer-icon" src="images/github.svg"
                 alt="github" /></a>
     </footer>
 </body>
