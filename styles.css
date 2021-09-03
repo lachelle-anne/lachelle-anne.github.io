@@ -339,6 +339,7 @@ ul{
   }
   body{
     width: 100%;
+    background-attachment: fixed;
   }
   .navigation{
     padding: 0;
