@@ -239,6 +239,21 @@ ul{
   text-decoration: none;
 }
 
+.blog-image{
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  padding: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.square{
+  max-width: 300px;
+}
+.long{
+  max-width: 600px;
+}
+
 /* Footer */
 .footer {
   display: flex;
@@ -331,7 +346,7 @@ ul{
 
 /* Media Settings */
 @media screen and (max-width: 600px) {
-  :root{
+  html{
     scroll-behavior: smooth;
   }
   .profile-image{
@@ -339,10 +354,13 @@ ul{
   }
   body{
     width: 100%;
-    background-attachment: fixed;
+    background-size: cover;
   }
   .navigation{
     padding: 0;
+  }
+  .long{
+    max-width: 300px;
   }
   .progress-line span::after{
     animation: none;
