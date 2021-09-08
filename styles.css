@@ -81,6 +81,7 @@ h6, .h6 {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  border-radius: 5px;
 }
 .nav-link{
     color: black;
@@ -91,21 +92,20 @@ h6, .h6 {
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 .nav-tabs{
-  background-color: rgba(255,255,255, 0.3); 
+  background-color: rgba(255,255,255, 0.7); 
 }
 .nav-tabs .nav-link {
   margin-bottom: -1px;
   background: none;
   border: 1px solid transparent;
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
+  border-radius: 5px;
 }
 
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
   border-color: #e9ecef #e9ecef #dee2e6;
-  color: lightseagreen;
+  background-color: rgba(166, 227, 179, 0.8);
   isolation: isolate;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -115,7 +115,7 @@ h6, .h6 {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #fff;
+  background-color: rgb(166, 227, 179, 0.8);
   border-color: #dee2e6 #dee2e6 #fff;
 }
 .nav-fill > .nav-link,
@@ -195,19 +195,19 @@ ul{
 
 /* Blog Page */
 .collapsible {
-  background-color: #777;
-  color: white;
+  background-color: rgb(135, 207, 150);
   cursor: pointer;
   padding: 18px;
   grid-column: start/end;
-  border: none;
   text-align: left;
   outline: none;
+  border: none;
   border-radius: 10px;
+  font-weight: 600;
 }
 
 .active, .collapsible:hover {
-  background-color: #75b683;
+  background-color: rgb(149, 206, 186);
 }
 
 .content {
@@ -218,9 +218,6 @@ ul{
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid #bbb;
   border-radius: 5px;
-}
-.blogdate{
-  float: right;
 }
 .highlight{
   border: 2px solid #bbb;
@@ -258,16 +255,17 @@ ul{
 .footer {
   display: flex;
   justify-content: center;
-  align-items: center;
   position: fixed;
   bottom: 0;
   width: 100%;
-  line-height: 60px;
+  margin-bottom: 10px; 
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 8px;
 }
 .footer-icon{
   height: 25px;
-  justify-content: space-between;
-  padding: 0 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 /* Skill Bar */
@@ -315,7 +313,7 @@ ul{
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  background: #a6e3b3;
+  background: rgb(166, 227, 179);
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 /* Skill Bar Percents */
