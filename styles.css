@@ -272,7 +272,7 @@ ul{
 
 /* Skill Bar */
 .bar{
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .bar:first-child{
   margin-top: 0px;
@@ -351,10 +351,6 @@ ul{
   }
   .profile-image{
     max-width: 150px;
-  }
-  body{
-    width: 100%;
-    background-size: cover;
   }
   .navigation{
     padding: 0;
