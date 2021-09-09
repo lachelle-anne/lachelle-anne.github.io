@@ -189,9 +189,16 @@ ul{
 
 }
 /* Projects Page */
-.project{
+.project-subheading{
   grid-column: start/end;
-  padding: 10px;
+}
+.project-link{
+  text-decoration: none;
+  color: #504f54;
+}
+.project-subheading:hover, .project-link:hover{
+  background-color:rgb(135, 207, 150);
+  color: #e9ecef;
 }
 .project-video{
   border-radius: 10px;;
