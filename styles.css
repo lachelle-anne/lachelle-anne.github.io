@@ -1,5 +1,6 @@
 ﻿html{
   overflow-y:scroll;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -192,6 +193,14 @@ ul{
   grid-column: start/end;
   padding: 10px;
 }
+.project-video{
+  border-radius: 10px;;
+  background-color: rgba(255,255,255, 0.6);
+  grid-column: start/end;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
 
 /* Blog Page */
 .collapsible {
@@ -347,6 +356,9 @@ ul{
   html{
     scroll-behavior: smooth;
   }
+  body{
+    background-size: auto;
+  }
   .profile-image{
     max-width: 150px;
   }
@@ -356,6 +368,9 @@ ul{
   .long{
     max-width: 300px;
   }
+.project-video{
+  max-width: 350px;
+}
   .progress-line span::after{
     animation: none;
   }
