@@ -85,12 +85,12 @@ h6, .h6 {
   border-radius: 5px;
 }
 .nav-link{
-    color: black;
-    font-weight: bold;
-    display: block;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  color: black;
+  font-weight: bold;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 .nav-tabs{
   background-color: rgba(255,255,255, 0.7); 
@@ -161,14 +161,18 @@ ul{
   justify-self: center;
 }
 .profile-image{
-  border-radius: 90px;
+  border-radius: 120px;
   border: 2px solid lightgray;
-  max-width: 300px;
+  max-width: 250px;
+  grid-column: start/end;
 }
 /* About Page */
 .heading-subtitle{
   grid-column: start / end;
   text-align: start;
+}
+.subtitle{
+  padding-bottom: 20px;
 }
 .education{
   padding: 10px;
@@ -179,6 +183,9 @@ ul{
   padding: 10px;
   border-radius: 10px;;
   background-color: rgba(255,255,255, 0.6);
+}
+.column{
+  padding: 10px;
 }
 .paragraph{
   border: 1px solid #bbb;
@@ -192,13 +199,12 @@ ul{
 .project-subheading{
   grid-column: start/end;
 }
+.project{
+  padding: 10px;
+}
 .project-link{
   text-decoration: none;
   color: #504f54;
-}
-.project-subheading:hover, .project-link:hover{
-  background-color:rgb(135, 207, 150);
-  color: #e9ecef;
 }
 .project-video{
   border-radius: 10px;;
@@ -207,6 +213,10 @@ ul{
   margin-left: auto;
   margin-right: auto;
   max-width: 600px;
+
+}
+.project-github-icon{
+  height: 30px;
 }
 
 /* Blog Page */
@@ -266,6 +276,10 @@ ul{
 .long{
   max-width: 600px;
 }
+.dropdown-icon{
+  float: right;
+  height: 18px;
+}
 
 /* Footer */
 .footer {
@@ -292,7 +306,7 @@ ul{
   margin-top: 0px;
 }
 .bar .info{
-  margin-bottom: 5px;
+  margin-bottom: 15px;
 }
 .bar .info span{
   font-weight: 500;
@@ -367,17 +381,24 @@ ul{
     background-size: auto;
   }
   .profile-image{
-    max-width: 150px;
+    max-width: 155px;
   }
   .navigation{
     padding: 0;
+    font-size: 15px;
   }
   .long{
     max-width: 300px;
   }
-.project-video{
-  max-width: 350px;
-}
+  .education{
+    grid-column: start/end;
+  }
+  .column{
+    grid-column: start/end;
+  }
+  .project-video{
+    max-width: 320px;
+  }
   .progress-line span::after{
     animation: none;
   }
