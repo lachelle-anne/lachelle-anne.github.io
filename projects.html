@@ -49,7 +49,12 @@
         <div class="bubble project-subheading text-center">
             <h5 class="project">MUSIC PLAYER</h5>
             <p>A JavaScript web project using HTML, CSS & JavaScript.</p>
-            <video class="project-video" src="./videos/music.mp4" controls poster="./images/projects/music.png"></video>
+            <video class="project-video" src="./videos/music.mp4" controls poster="./images/projects/music.png">
+                <script>
+                    var video = document.currentScript.parentElement;
+                    video.volume = 0.3;
+                </script>
+            </video>
             <p><a class="project-link" target="_blank" rel="noopener noreferrer"
                     href="https://github.com/lachelle-anne/music-player.git"><img title="Music Player on GitHub"
                         class="project-github-icon" src="images/icons/github.svg" /></a></p>
@@ -57,7 +62,12 @@
         <div class="bubble project-subheading text-center">
             <h5 class="project">SPOCK ROCK GAME</h5>
             <p>A JavaScript web project using HTML, CSS & JavaScript.</p>
-            <video class="project-video" src="./videos/spock.mp4" controls poster="images/projects/spock.png"></video>
+            <video class="project-video" src="./videos/spock.mp4" controls poster="images/projects/spock.png">
+                <script>
+                    var video = document.currentScript.parentElement;
+                    video.volume = 0.3;
+                </script>
+            </video>
             <p><a class="project-link" target="_blank" rel="noopener noreferrer"
                     href="https://github.com/lachelle-anne/spock-rock-game.git"><img title="Spock Rock Game on GitHub"
                         class="project-github-icon" src="images/icons/github.svg" /></a></p>
@@ -65,17 +75,43 @@
         <div class="bubble project-subheading text-center">
             <h5 class="project">CALCULATOR</h5>
             <p>A JavaScript web project using HTML, CSS & JavaScript.</p>
-            <video class="project-video" src="./videos/calculator.mp4" controls
-                poster="images/projects/calculator.png"></video>
+            <video class="project-video" src="./videos/calculator.mp4" controls poster="images/projects/calculator.png">
+                <script>
+                    var video = document.currentScript.parentElement;
+                    video.volume = 0.3;
+                </script>
+            </video>
             <p><a class="project-link" target="_blank" rel="noopener noreferrer"
                     href="https://github.com/lachelle-anne/calculator.git"><img title="Calculator on GitHub"
                         class="project-github-icon" src="images/icons/github.svg" /></a></p>
         </div>
+
+        <div class="bubble project-subheading text-center">
+            <h5 class="project">NOTEPAD</h5>
+            <p>A React.js application for writing and storing notes.</p>
+            <video class="project-video" src="./videos/notepad.mp4" controls
+                poster="images/projects/notepad.png">
+                <script>
+                    var video = document.currentScript.parentElement;
+                    video.volume = 0.3;
+                </script>
+            </video>
+            <p><a class="project-link" target="_blank" rel="noopener noreferrer"
+                    href="https://github.com/lachelle-anne/notepad.git"><img
+                        title="Notepad on GitHub" class="project-github-icon"
+                        src="images/icons/github.svg" /></a></p>
+        </div>
+
         <div class="bubble project-subheading text-center">
             <h5 class="project">MEMBERSHIP SYSTEM</h5>
-            <p>An ASP.NET web project using MVC.</p>
+            <p>An ASP.NET web project using .NET and MVC.</p>
             <video class="project-video" src="./videos/member-system.mp4" controls
-                poster="images/projects/member-system.png"></video>
+                poster="images/projects/member-system.png">
+                <script>
+                    var video = document.currentScript.parentElement;
+                    video.volume = 0.3;
+                </script>
+            </video>
             <p><a class="project-link" target="_blank" rel="noopener noreferrer"
                     href="https://github.com/lachelle-anne/membership-system.git"><img
                         title="Membership System on GitHub" class="project-github-icon"
@@ -85,7 +121,12 @@
             <h5 class="project">ORDER MANAGEMENT SYSTEM</h5>
             <p>A C# desktop application using .NET and a WPF UI.</p>
             <video class="project-video" src="./videos/order-system.mp4" controls
-                poster="images/projects/order-system.png"></video>
+                poster="images/projects/order-system.png">
+                <script>
+                    var video = document.currentScript.parentElement;
+                    video.volume = 0.3;
+                </script>
+            </video>
             <p><a class="project-link" target="_blank" rel="noopener noreferrer"
                     href="https://github.com/lachelle-anne/order-management-system.git"><img
                         title="Order Management System on GitHub" class="project-github-icon"
@@ -93,7 +134,7 @@
         </div>
         <div class="bubble project-subheading text-center">
             <h5 class="project">LACHELLE-ANNE.COM</h5>
-            <p>A Static HTML website using HTML, CSS & JavaScript</p>
+            <p>A Static HTML website using HTML, CSS & JavaScript.</p>
             <p><a class="project-link" target="_blank" rel="noopener noreferrer"
                     href="https://github.com/lachelle-anne/lachelle-anne.github.io.git"><img
                         title="lachelle-anne.com on GitHub" class="project-github-icon"
@@ -101,18 +142,15 @@
         </div>
     </div>
     <footer class="border-top border-light footer fixed-bottom">
-        <a title="Email" target="_blank" rel="noopener noreferrer"
-            href="mailto:lachelle.anne@gmail.com"><img class="footer-icon" src="images/icons/envelope-fill.svg"
-                alt="email" /></a>
-        <a title="Instagram" target="_blank" rel="noopener noreferrer"
-            href="https://www.instagram.com/la_codes/"><img class="footer-icon" src="images/icons/instagram.svg"
-                alt="instagram" /></a>
+        <a title="Email" target="_blank" rel="noopener noreferrer" href="mailto:lachelle.anne@gmail.com"><img
+                class="footer-icon" src="images/icons/envelope-fill.svg" alt="email" /></a>
+        <a title="Instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/la_codes/"><img
+                class="footer-icon" src="images/icons/instagram.svg" alt="instagram" /></a>
         <a title="LinkedIn" target="_blank" rel="noopener noreferrer"
             href="https://www.linkedin.com/in/lachelle-anne/"><img class="footer-icon" src="images/icons/linkedin.svg"
                 alt="linkedin" /></a>
-        <a title="GitHub" target="_blank" rel="noopener noreferrer"
-            href="https://github.com/lachelle-anne"><img class="footer-icon" src="images/icons/github.svg"
-                alt="github" /></a>
+        <a title="GitHub" target="_blank" rel="noopener noreferrer" href="https://github.com/lachelle-anne"><img
+                class="footer-icon" src="images/icons/github.svg" alt="github" /></a>
     </footer>
 </body>
 
