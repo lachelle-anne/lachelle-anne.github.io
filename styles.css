@@ -395,7 +395,7 @@ ul{
   }
   .column{
     grid-column: start/end;
-  }
+  }  
   .project-video{
     max-width: 500px;
     min-width: 400px;
@@ -432,6 +432,12 @@ ul{
     max-width: 330px;
     min-width: 300px;
   }
+  .profile-image{
+    max-width: 120px;
+  }
+  .column{
+    padding: 0;
+  } 
   .long{
     max-width: 250px;
   }
