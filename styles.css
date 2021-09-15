@@ -25,7 +25,6 @@ body {
   background-color: rgba(255,255,255, 0.5);
   backdrop-filter: blur(4px);
   border-radius: 15px;
-  border: solid 2px #808080;
   color: #504f54;
   max-width: 700px;
   margin-left: auto;
@@ -165,11 +164,10 @@ ul{
   grid-column: start/end;
 }
 .paragraph{
-  border: 1px solid #bbb;
   background-color: rgba(255, 255, 255, 0.8);
   grid-column: start / end;
   padding: 0 18px;
-  border-radius: 5px;
+  border-radius: 10px;
 
 }
 
@@ -188,7 +186,6 @@ ul{
   text-align:center;
 }
 .bubble{
-  border: 1px solid #bbb;
   padding: 10px;
   border-radius: 10px;;
   background-color: rgba(255,255,255, 0.6);
@@ -319,7 +316,7 @@ ul{
   grid-column: start/end;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid #bbb;
+  /* border: 1px solid #bbb; */
   border-radius: 5px;
 }
 .link {
