@@ -11,6 +11,7 @@ body {
   background-image: url('images/bg.jpg');
   background-attachment: fixed;
   background-size: cover;
+  background-color: #ebebeb;
   width: 100%;
   font-family: var(--bs-font-sans-serif);
   margin: 0;
@@ -203,25 +204,15 @@ ul{
 .bar .info span{
   font-weight: 500;
   font-size: 17px;
-  opacity: 0;
-  animation: showText 0.5s 1s linear forwards;
-}
-@keyframes showText {
-  100%{
-    opacity: 1;
-  }
+  opacity: 1;
 }
 .bar .progress-line{
   height: 10px;
   width: 100%;
   background: #f0f0f0;
   position: relative;
-  transform: scaleX(0);
-  transform-origin: left;
   border-radius: 10px;
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
-              0 1px rgba(255,255,255,0.8);
-  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05), 0 1px rgba(255,255,255,0.8);
 }
 @keyframes animate {
   100%{
@@ -235,7 +226,7 @@ ul{
   transform: scaleX(0);
   transform-origin: left;
   background: rgb(166, 227, 179);
-  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+  animation: animate 1.2s cubic-bezier(1,0,0.5,1) forwards;
 }
 .bar .progress-line.html span{
   width: 70%;
