@@ -155,20 +155,20 @@ ul{
 
 /* Home Page */
 
-.home-image-column{
-  justify-self: center;
-  align-content: center;
-}
 .profile-image{
   border-radius: 120px;
   border: 2px solid lightgray;
   max-width: 250px;
   grid-column: start/end;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 .welcome{
-  justify-content: center; 
-  align-content: center;
-  padding-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  align-self: center;
 }
 .paragraph{
   background-color: rgba(255, 255, 255, 0.8);
@@ -251,6 +251,9 @@ ul{
 .bar .progress-line.react span{
   width: 50%;
 }
+.bar .progress-line.typescript span{
+  width: 40%;
+}
 .bar .progress-line.react-native span{
   width: 40%;
 }
@@ -312,7 +315,6 @@ ul{
   grid-column: start/end;
   overflow: hidden;
   background-color: rgba(255, 255, 255, 0.8);
-  /* border: 1px solid #bbb; */
   border-radius: 5px;
 }
 .link {
@@ -435,7 +437,6 @@ ul{
   }
   .home-image-column{
     grid-column: start/end;
-    grid-row: 1;
   }
   .welcome{
     grid-column: start/end;
