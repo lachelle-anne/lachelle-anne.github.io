@@ -5,7 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lachelle Pavlovic</title>
-    <link href="styles.css?v=24" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link href="styles.css?v=25" rel="stylesheet" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-203236141-1"></script>
@@ -40,11 +41,22 @@
         </div>
     </header>
     <div class="container">
+        <!-- Dark Mode Switch -->
+        <div class="theme-switch-wrapper">
+            <span id="toggle-icon">
+                <span class="toggle-text"></span>
+                <i class="fas fa-sun"></i>
+            </span>
+            <label class="theme-switch">
+                <input type="checkbox">
+                <div class="slider round"></div>
+            </label>
+        </div>
         <div class="heading-title">
             <h6 class="text-center" style="padding-top: 20px;">A&emsp;G R A D U A T E S&emsp;G U I D E&emsp;T O</h6>
             <h3 class="text-center" style="padding-bottom: 20px;">D E V E L O P I N G</h3>
         </div>
-        <button type="button" class="collapsible">PART ONE: Learning Styles & Resources</button>
+        <button type="button" class="collapsible">PART ONE: Learning Styles & Resources<i class="fas fa-chevron-down dropdown-icon"></i></button>
         <div class="content">
             <p>| By Lachelle Pavlovic | Sept 04, 2021 |</p>
             <p>When starting out, gaining access to educational content and identifying resources appropriate to your
@@ -99,7 +111,7 @@
                     href="https://www.tutorialsteacher.com/">TutorialsTeacher</a>
             </p>
         </div>
-        <button type="button" class="collapsible">PART TWO: Terms & Guidelines</button>
+        <button type="button" class="collapsible">PART TWO: Terms & Guidelines<i class="fas fa-chevron-down dropdown-icon"></i></button>
         <div class="content">
             <p>| By Lachelle Pavlovic | COMING SOON! |</p>
         </div>
@@ -122,16 +134,17 @@
         </script>
     </div>
     <footer class="footer">
-        <a title="Email" target="_blank" rel="noopener noreferrer" href="mailto:lachelle.anne@gmail.com"><img
-                class="footer-icon" src="images/icons/envelope-fill.svg" alt="email" /></a>
-        <a title="Instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/la_codes/"><img
-                class="footer-icon" src="images/icons/instagram.svg" alt="instagram" /></a>
+        <a title="Email" target="_blank" rel="noopener noreferrer" href="mailto:lachelle.anne@gmail.com"><i
+                class="far fa-envelope footer-icon" alt="email"></i></a>
+        <a title="Instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/la_codes/"><i
+                class="fab fa-instagram footer-icon" alt="instagram"></i></a>
         <a title="LinkedIn" target="_blank" rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/lachelle-anne/"><img class="footer-icon" src="images/icons/linkedin.svg"
-                alt="linkedin" /></a>
-        <a title="GitHub" target="_blank" rel="noopener noreferrer" href="https://github.com/lachelle-anne"><img
-                class="footer-icon" src="images/icons/github.svg" alt="github" /></a>
+            href="https://www.linkedin.com/in/lachelle-anne/"><i class="fab fa-linkedin-in footer-icon"
+                alt="linkedin"></i></a>
+        <a title="GitHub" target="_blank" rel="noopener noreferrer" href="https://github.com/lachelle-anne"><i
+                class="fab fa-github-alt footer-icon" alt="github"></i></a>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

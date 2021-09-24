@@ -5,7 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lachelle Pavlovic</title>
-    <link href="styles.css?v=24" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <link href="styles.css?v=25" rel="stylesheet" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-203236141-1"></script>
@@ -40,6 +41,17 @@
         </div>
     </header>
     <div class="container">
+        <!-- Dark Mode Switch -->
+        <div class="theme-switch-wrapper">
+            <span id="toggle-icon">
+                <span class="toggle-text"></span>
+                <i class="fas fa-sun"></i>
+            </span>
+            <label class="theme-switch">
+                <input type="checkbox">
+                <div class="slider round"></div>
+            </label>
+        </div>
         <div class="welcome text-center">
             <h1>L A C H E L L E</h1>
             <h4>P A V L O V I C</h4>
@@ -58,16 +70,17 @@
         </div>
     </div>
     <footer class="footer">
-        <a title="Email" target="_blank" rel="noopener noreferrer" href="mailto:lachelle.anne@gmail.com"><img
-                class="footer-icon" src="images/icons/envelope-fill.svg" alt="email" /></a>
-        <a title="Instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/la_codes/"><img
-                class="footer-icon" src="images/icons/instagram.svg" alt="instagram" /></a>
+        <a title="Email" target="_blank" rel="noopener noreferrer" href="mailto:lachelle.anne@gmail.com"><i
+                class="far fa-envelope footer-icon" alt="email"></i></a>
+        <a title="Instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/la_codes/"><i
+                class="fab fa-instagram footer-icon" alt="instagram"></i></a>
         <a title="LinkedIn" target="_blank" rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/lachelle-anne/"><img class="footer-icon" src="images/icons/linkedin.svg"
-                alt="linkedin" /></a>
-        <a title="GitHub" target="_blank" rel="noopener noreferrer" href="https://github.com/lachelle-anne"><img
-                class="footer-icon" src="images/icons/github.svg" alt="github" /></a>
+            href="https://www.linkedin.com/in/lachelle-anne/"><i class="fab fa-linkedin-in footer-icon"
+                alt="linkedin"></i></a>
+        <a title="GitHub" target="_blank" rel="noopener noreferrer" href="https://github.com/lachelle-anne"><i
+                class="fab fa-github-alt footer-icon" alt="github"></i></a>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
