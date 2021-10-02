@@ -3,7 +3,7 @@
 :root {
   /* Background */
   --bg-color: #ebebeb;
-  --bg-position: initial;
+  --bg-position: top left;
   --bg-image: url("images/bg.jpg");
   /* Header / Footer */
   --text-nav-link: #000000;
