@@ -158,6 +158,7 @@ body {
 *::after {
   box-sizing: border-box;
 }
+
 h6,
 .h6,
 h5,
@@ -175,6 +176,7 @@ h1,
   font-weight: 500;
   line-height: 1.2;
 }
+
 h1,
 .h1 {
   font-size: calc(1.375rem + 1.5vw);
@@ -418,7 +420,7 @@ ul {
   font-size: 30px;
 }
 .project-github-icon:hover {
-  color: mediumpurple;
+  color: rgb(149, 206, 186);
 }
 
 /* Blog Page */
@@ -443,7 +445,7 @@ ul {
 .dropdown-icon {
   float: right;
   height: 18px;
-  color: lightgrey;
+  color: rgb(110, 110, 110);
 }
 
 /* Container */
@@ -470,6 +472,11 @@ ul {
   margin-right: auto;
   margin-top: 10px;
   text-decoration: none;
+}
+
+.link:hover{
+  background-color: #75b683;
+  color: #fff;
 }
 
 /* Blog Images */
