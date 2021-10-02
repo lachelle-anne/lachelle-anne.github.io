@@ -21,7 +21,7 @@
 [data-theme="dark"] {
   /* Background */
   --bg-color: #09090b;
-  --bg-position: center;
+  --bg-position: top center;
   --bg-image: url("images/bg-dark.jpg");
   /* Header / Footer */
   --text-nav-link: #f0f0f0;
