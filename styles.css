@@ -287,7 +287,7 @@ ul {
   color: var(--footer-icon);
 }
 .footer-icon:hover {
-  color: #75b683;
+  color: rgb(73, 190, 149);
 }
 
 /* Home Page */
@@ -422,6 +422,18 @@ ul {
 .project-github-icon:hover {
   color: rgb(149, 206, 186);
 }
+.profile-link {
+  color: #75b683;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.profile-link:hover {
+  background-color: rgb(73, 190, 149);
+  color: #f0f0f0;
+  border-radius: 5px;
+}
 
 /* Blog Page */
 
@@ -473,8 +485,7 @@ ul {
   margin-top: 10px;
   text-decoration: none;
 }
-
-.link:hover{
+.link:hover {
   background-color: #75b683;
   color: #fff;
 }
