@@ -3,12 +3,12 @@ const toggleIcon = document.getElementById('toggle-icon');
 
 //Dark Mode
 function darkMode(){
-    toggleIcon.children[1].classList.replace('fa-sun', 'fa-moon');   
+    toggleIcon.children[0].classList.replace('fa-sun', 'fa-moon');   
 }
 
 //Light Mode
 function lightMode(){
-    toggleIcon.children[1].classList.replace('fa-moon', 'fa-sun');
+    toggleIcon.children[0].classList.replace('fa-moon', 'fa-sun');
 }
 
 //Switch Theme
