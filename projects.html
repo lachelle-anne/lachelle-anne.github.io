@@ -1,205 +1,374 @@
 <!DOCTYPE html>
 <html lang="en-au">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lachelle Pavlovic</title>
-    <link rel="icon" type="image/svg" href="./images/code_html_link_share_icon.svg">
-    <link rel="canonical" href="https://lachelle-anne.com/projects.html">
-    <meta name="referrer" content="none-when-downgrade">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+    <title>Lachelle | Projects</title>
+    <link
+      rel="icon"
+      type="image/svg"
+      href="./images/code_html_link_share_icon.svg"
+    />
+    <link rel="canonical" href="https://lachelle-anne.com/projects.html" />
+    <meta name="referrer" content="none-when-downgrade" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
     <link href="styles.css?v=31" rel="stylesheet" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-203236141-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-203236141-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-203236141-1');
+      gtag("config", "UA-203236141-1");
     </script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="navigation">
-            <nav>
-                <ul class="nav nav-tabs nav-fill">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="projects.html">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+      <div class="navigation">
+        <nav>
+          <ul class="nav nav-tabs nav-fill">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <div class="container">
-        <!-- Dark Mode Switch -->
-        <div class="theme-switch-wrapper">
-            <label class="theme-switch">
-                <input type="checkbox">
-                <span id="toggle-icon">
-                    <i class="fas fa-sun"></i>
-                </span>
-            </label>
-        </div>
-        <div class="heading-title">
-            <h3 class="text-center" style="padding: 20px;">P R O J E C T S</h3>
-        </div>
-        <div class="bubble project-subheading text-center">
-            <h5 class="project">NOTE BOARD</h5>
-            <p>A JavaScript web project to create a note board, featuring drag and drop functionality.</p>
-            <video class="project-video" src="./videos/note-board.mp4" controls
-                poster="./images/projects/note-board.png">
-                <script>
-                    var video = document.currentScript.parentElement;
-                    video.volume = 0.3;
-                </script>
-            </video>
-            <p><a class="project-link" target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/lachelle-anne/note-board.git"><i title="Note Board on GitHub"
-                        class="fab fa-github project-github-icon"></i></a></p>
-        </div>
-        <div class="bubble project-subheading text-center">
-            <h5 class="project">LIGHT DARK MODE</h5>
-            <p>A JavaScript web project where you can switch between a light and dark mode theme.</p>
-            <video class="project-video" src="./videos/light-dark-mode.mp4" controls
-                poster="./images/projects/light-dark-mode.png">
-                <script>
-                    var video = document.currentScript.parentElement;
-                    video.volume = 0.3;
-                </script>
-            </video>
-            <p><a class="project-link" target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/lachelle-anne/light-dark-mode.git"><i title="Light Dark Mode on GitHub"
-                        class="fab fa-github project-github-icon"></i></a></p>
-        </div>
-        <div class="bubble project-subheading text-center">
-            <h5 class="project">MUSIC PLAYER</h5>
-            <p>A JavaScript web project to make a customised music player.</p>
-            <video class="project-video" src="./videos/music.mp4" controls poster="./images/projects/music.png">
-                <script>
-                    var video = document.currentScript.parentElement;
-                    video.volume = 0.3;
-                </script>
-            </video>
-            <p><a class="project-link" target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/lachelle-anne/music-player.git"><i title="Music Player on GitHub"
-                        class="fab fa-github project-github-icon"></i></a></p>
-        </div>
-        <div class="bubble project-subheading text-center">
-            <h5 class="project">SPOCK ROCK GAME</h5>
-            <p>A JavaScript web project to create a rock paper scissors lizard spock game.</p>
-            <video class="project-video" src="./videos/spock.mp4" controls poster="images/projects/spock.png">
-                <script>
-                    var video = document.currentScript.parentElement;
-                    video.volume = 0.3;
-                </script>
-            </video>
-            <p><a class="project-link" target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/lachelle-anne/spock-rock-game.git"><i title="Spock Rock Game on GitHub"
-                        class="fab fa-github project-github-icon"></i></a></p>
-        </div>
-        <div class="bubble project-subheading text-center">
-            <h5 class="project">LACHELLE-ANNE.COM</h5>
-            <p>A Static HTML website created to display my portfolio, including project demos and a blog.</p>
-            <p><a class="project-link" target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/lachelle-anne/lachelle-anne.github.io.git"><i
-                        title="lachelle-anne.com on GitHub" class="fab fa-github project-github-icon"></i></a></p>
-        </div>
-        <div class="bubble project-subheading text-center">
-            <h5 class="project">NOTEPAD</h5>
-            <p>A React.js application to write and store notes locally. This was a project completed for the Diploma of
-                Software Development at TAFE NSW.</p>
-            <video class="project-video" src="./videos/notepad.mp4" controls poster="images/projects/notepad.png">
-                <script>
-                    var video = document.currentScript.parentElement;
-                    video.volume = 0.3;
-                </script>
-            </video>
-            <p><a class="project-link" target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/lachelle-anne/notepad.git"><i title="Notepad on GitHub"
-                        class="fab fa-github project-github-icon"></i></a></p>
-        </div>
+      <!-- Dark Mode Switch -->
+      <div class="theme-switch-wrapper">
+        <label class="theme-switch">
+          <input type="checkbox" />
+          <span id="toggle-icon">
+            <i class="fas fa-sun"></i>
+          </span>
+        </label>
+      </div>
+      <div class="heading-title">
+        <h3 class="text-center" style="padding: 20px">P R O J E C T S</h3>
+      </div>
+      <div class="bubble project-subheading text-center">
+        <h5 class="project">NOTE BOARD</h5>
+        <p>
+          A JavaScript web project to create a note board, featuring drag and
+          drop functionality.
+        </p>
+        <video
+          class="project-video"
+          src="./videos/note-board.mp4"
+          controls
+          poster="./images/projects/note-board.png"
+        >
+          <script>
+            var video = document.currentScript.parentElement;
+            video.volume = 0.3;
+          </script>
+        </video>
+        <p>
+          <a
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/lachelle-anne/note-board.git"
+            ><i
+              title="Note Board on GitHub"
+              class="fab fa-github project-github-icon"
+            ></i
+          ></a>
+        </p>
+      </div>
+      <div class="bubble project-subheading text-center">
+        <h5 class="project">LIGHT DARK MODE</h5>
+        <p>
+          A JavaScript web project where you can switch between a light and dark
+          mode theme.
+        </p>
+        <video
+          class="project-video"
+          src="./videos/light-dark-mode.mp4"
+          controls
+          poster="./images/projects/light-dark-mode.png"
+        >
+          <script>
+            var video = document.currentScript.parentElement;
+            video.volume = 0.3;
+          </script>
+        </video>
+        <p>
+          <a
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/lachelle-anne/light-dark-mode.git"
+            ><i
+              title="Light Dark Mode on GitHub"
+              class="fab fa-github project-github-icon"
+            ></i
+          ></a>
+        </p>
+      </div>
+      <div class="bubble project-subheading text-center">
+        <h5 class="project">MUSIC PLAYER</h5>
+        <p>A JavaScript web project to make a customised music player.</p>
+        <video
+          class="project-video"
+          src="./videos/music.mp4"
+          controls
+          poster="./images/projects/music.png"
+        >
+          <script>
+            var video = document.currentScript.parentElement;
+            video.volume = 0.3;
+          </script>
+        </video>
+        <p>
+          <a
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/lachelle-anne/music-player.git"
+            ><i
+              title="Music Player on GitHub"
+              class="fab fa-github project-github-icon"
+            ></i
+          ></a>
+        </p>
+      </div>
+      <div class="bubble project-subheading text-center">
+        <h5 class="project">SPOCK ROCK GAME</h5>
+        <p>
+          A JavaScript web project to create a rock paper scissors lizard spock
+          game.
+        </p>
+        <video
+          class="project-video"
+          src="./videos/spock.mp4"
+          controls
+          poster="images/projects/spock.png"
+        >
+          <script>
+            var video = document.currentScript.parentElement;
+            video.volume = 0.3;
+          </script>
+        </video>
+        <p>
+          <a
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/lachelle-anne/spock-rock-game.git"
+            ><i
+              title="Spock Rock Game on GitHub"
+              class="fab fa-github project-github-icon"
+            ></i
+          ></a>
+        </p>
+      </div>
+      <div class="bubble project-subheading text-center">
+        <h5 class="project">LACHELLE-ANNE.COM</h5>
+        <p>
+          A Static HTML website created to display my portfolio, including
+          project demos and a blog.
+        </p>
+        <p>
+          <a
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/lachelle-anne/lachelle-anne.github.io.git"
+            ><i
+              title="lachelle-anne.com on GitHub"
+              class="fab fa-github project-github-icon"
+            ></i
+          ></a>
+        </p>
+      </div>
+      <div class="bubble project-subheading text-center">
+        <h5 class="project">NOTEPAD</h5>
+        <p>
+          A React.js application to write and store notes locally. This was a
+          project completed for the Diploma of Software Development at TAFE NSW.
+        </p>
+        <video
+          class="project-video"
+          src="./videos/notepad.mp4"
+          controls
+          poster="images/projects/notepad.png"
+        >
+          <script>
+            var video = document.currentScript.parentElement;
+            video.volume = 0.3;
+          </script>
+        </video>
+        <p>
+          <a
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/lachelle-anne/notepad.git"
+            ><i
+              title="Notepad on GitHub"
+              class="fab fa-github project-github-icon"
+            ></i
+          ></a>
+        </p>
+      </div>
 
-        <div class="bubble project-subheading text-center">
-            <h5 class="project">MEMBERSHIP SYSTEM</h5>
-            <p>A C# & ASP.NET web project for a simple membership system using CRUD operations. This was a project
-                completed for the Diploma of Software
-                Development at TAFE NSW.</p>
-            <video class="project-video" src="./videos/member-system.mp4" controls
-                poster="images/projects/member-system.png">
-                <script>
-                    var video = document.currentScript.parentElement;
-                    video.volume = 0.3;
-                </script>
-            </video>
-            <p><a class="project-link" target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/lachelle-anne/membership-system.git"><i title="Membership System on GitHub"
-                        class="fab fa-github project-github-icon"></i></a></p>
-        </div>
-        <div class="bubble project-subheading text-center">
-            <h6><a class="link" target="_blank" rel="noopener noreferrer" href="https://github.com/lachelle-anne">See
-                    more projects on GitHub!</a></h6>
-        </div>
-        <div class="heading-title">
-            <h3 class="text-center" style="padding: 20px;">COLLABORATIONS</h3>
-        </div>
-        <div class="bubble project-subheading text-center">
-            <h5 class="project">TUNE IT</h5>
-            <p>A collaboration with <a class="profile-link" title="jasperdunn" target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/jasperdunn">@Jasper</a> on an
-                instrument tuning React application,
-                designing the user interface of this project using React & Typescript.</p>
-            <p><a class="project-link" target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/jasperdunn/tunings.git"><i title="Tune It on GitHub"
-                        class="fab fa-github project-github-icon"></i></a></p>
-        </div>
-        <div class="bubble project-subheading text-center">
-            <h5 class="project">ARKSCRIBE</h5>
-            <p>A C# collaboration with <a class="profile-link" title="Necropixel15616" target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/Necropixel15616">@Jacob</a> on
-                a
-                breeding tracker for the game Ark: Survival Evolved,
-                designing the interface of this project with WPF.</p>
-            <p><a class="project-link" target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/Necropixel15616/ArkScribe.git"><i title="ArkScribe on GitHub"
-                        class="fab fa-github project-github-icon"></i></a></p>
-        </div>
-        <div class="bubble project-subheading text-center">
-            <h5 class="project">THE NAV BAR</h5>
-            <p>An ASP.NET core MVC collaboration with <a class="profile-link" title="Necropixel15616" target="_blank"
-                    rel="noopener noreferrer" href="https://github.com/Necropixel15616">@Jacob</a> on a
-                reservation system for restaurants, enabling management of bookings and processing reservations. Guest,
-                member and admin roles have been created to manage and restrict different sections within the system.
-                This was a project completed for the Diploma of Software Development at TAFE NSW.</p>
-            <p><a class="project-link" target="_blank" rel="noopener noreferrer"
-                    href="https://github.com/lachelle-anne/the-nav-bar.git"><i title="The Nav Bar on GitHub"
-                        class="fab fa-github project-github-icon"></i></a></p>
-        </div>
+      <div class="bubble project-subheading text-center">
+        <h5 class="project">MEMBERSHIP SYSTEM</h5>
+        <p>
+          A C# & ASP.NET web project for a simple membership system using CRUD
+          operations. This was a project completed for the Diploma of Software
+          Development at TAFE NSW.
+        </p>
+        <video
+          class="project-video"
+          src="./videos/member-system.mp4"
+          controls
+          poster="images/projects/member-system.png"
+        >
+          <script>
+            var video = document.currentScript.parentElement;
+            video.volume = 0.3;
+          </script>
+        </video>
+        <p>
+          <a
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/lachelle-anne/membership-system.git"
+            ><i
+              title="Membership System on GitHub"
+              class="fab fa-github project-github-icon"
+            ></i
+          ></a>
+        </p>
+      </div>
+      <div class="bubble project-subheading text-center">
+        <h6>
+          <a
+            class="link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/lachelle-anne"
+            >See more projects on GitHub!</a
+          >
+        </h6>
+      </div>
+      <div class="heading-title">
+        <h3 class="text-center" style="padding: 20px">COLLABORATIONS</h3>
+      </div>
+      <div class="bubble project-subheading text-center">
+        <h5 class="project">ARKSCRIBE</h5>
+        <p>
+          A C# collaboration with
+          <a
+            class="profile-link"
+            title="Necropixel15616"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/Necropixel15616"
+            >@Jacob</a
+          >
+          on a breeding tracker for the game Ark: Survival Evolved, designing
+          the interface of this project with WPF.
+        </p>
+        <p>
+          <a
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/Necropixel15616/ArkScribe.git"
+            ><i
+              title="ArkScribe on GitHub"
+              class="fab fa-github project-github-icon"
+            ></i
+          ></a>
+        </p>
+      </div>
+      <div class="bubble project-subheading text-center">
+        <h5 class="project">THE NAV BAR</h5>
+        <p>
+          An ASP.NET core MVC collaboration with
+          <a
+            class="profile-link"
+            title="Necropixel15616"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/Necropixel15616"
+            >@Jacob</a
+          >
+          on a reservation system for restaurants, enabling management of
+          bookings and processing reservations. Guest, member and admin roles
+          have been created to manage and restrict different sections within the
+          system. This was a project completed for the Diploma of Software
+          Development at TAFE NSW.
+        </p>
+        <p>
+          <a
+            class="project-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/lachelle-anne/the-nav-bar.git"
+            ><i
+              title="The Nav Bar on GitHub"
+              class="fab fa-github project-github-icon"
+            ></i
+          ></a>
+        </p>
+      </div>
     </div>
     <footer class="footer">
-        <a title="Email" target="_blank" rel="noopener noreferrer" href="mailto:lachelle.anne@gmail.com"><i
-                class="far fa-envelope footer-icon" alt="email"></i></a>
-        <a title="Instagram" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/la_codes/"><i
-                class="fab fa-instagram footer-icon" alt="instagram"></i></a>
-        <a title="LinkedIn" target="_blank" rel="noopener noreferrer"
-            href="https://www.linkedin.com/in/lachelle-anne/"><i class="fab fa-linkedin-in footer-icon"
-                alt="linkedin"></i></a>
-        <a title="GitHub" target="_blank" rel="noopener noreferrer" href="https://github.com/lachelle-anne"><i
-                class="fab fa-github footer-icon" alt="github"></i></a>
+      <a
+        title="Email"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="mailto:lachelle.anne@gmail.com"
+        ><i class="far fa-envelope footer-icon" alt="email"></i
+      ></a>
+      <a
+        title="Instagram"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.instagram.com/la_codes/"
+        ><i class="fab fa-instagram footer-icon" alt="instagram"></i
+      ></a>
+      <a
+        title="LinkedIn"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://www.linkedin.com/in/lachelle-anne/"
+        ><i class="fab fa-linkedin-in footer-icon" alt="linkedin"></i
+      ></a>
+      <a
+        title="GitHub"
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/lachelle-anne"
+        ><i class="fab fa-github footer-icon" alt="github"></i
+      ></a>
     </footer>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
