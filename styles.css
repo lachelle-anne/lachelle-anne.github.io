@@ -15,7 +15,7 @@
   --progress-line-box-color: #ffffff;
   --content-bubble-inner: rgba(255, 255, 255, 0.8);
   /* Text */
-  --text: #504f54;
+  --text: #3f3f42;
 }
 
 [data-theme="dark"] {
