@@ -343,10 +343,10 @@ ul {
   width: 50%;
 }
 .bar .progress-line.c-sharp span {
-  width: 60%;
+  width: 70%;
 }
 .bar .progress-line.sql span {
-  width: 50%;
+  width: 70%;
 }
 .bar .progress-line.typescript span {
   width: 40%;
